@@ -1,4 +1,62 @@
-.p_1{
+* {
+    margin: 0;
+
+}
+.box{
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.p_1 {
+
+    background-color: aqua;
+    color: black;
+    font-weight: bolder;
+    display: block;
+}
+.p_1:hover {
+    background-color: antiquewhite;
+}
+
+
+.p_2 {
+    background-color: green;
+    color: black;
+    font-weight: bolder;
+    display: block;
+}
+.p_2:hover {
+    background-color: greenyellow;
+}
+
+.p_3 {
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    display: block;
+}
+.p_3:hover {
+    background-color: yellowgreen;
+}
+.p_4 {
+    background-color: goldenrod;
+    color: black;
+    font-weight: bolder;
+    display: block;
+}
+.p_4:hover {
+    background-color: grey;
+}
+
+.footer {
+    float:none;
+    /* margin-left: 50%; */
+    text-align: center;
     background-color: aqua;
     color: blueviolet;
+}
+.footer:hover{
+    background-color: aquamarine;
 }
